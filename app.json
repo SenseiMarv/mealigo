@@ -37,6 +37,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "39d9c7a6-040e-4996-80cd-34990b76e09a"
+      }
+    },
+    "owner": "mealigo"
   }
 }
