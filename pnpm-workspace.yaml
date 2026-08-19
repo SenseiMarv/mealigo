@@ -1,0 +1,11 @@
+engineStrict: true
+packageManagerStrictVersion: true
+managePackageManagerVersions: true
+
+saveExact: true
+verifyDepsBeforeRun: install
+
+strictDepBuilds: true
+
+allowBuilds:
+  unrs-resolver: false
