@@ -10,6 +10,8 @@
     "lint": "expo lint"
   },
   "dependencies": {
+    "@dev-plugins/react-navigation": "0.4.0",
+    "@dev-plugins/react-query": "0.4.0",
     "@expo/ui": "57.0.11",
     "expo": "57.0.14",
     "expo-constants": "57.0.12",
