@@ -1,0 +1,53 @@
+name: User story
+description: A feature or requirement from the end user's perspective
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the feature from the end user's perspective.
+
+  - type: input
+    id: as-a
+    attributes:
+      label: As a
+      description: Who wants this?
+      value: user of Mealie to manage my recipes
+    validations:
+      required: true
+
+  - type: input
+    id: i-want-to
+    attributes:
+      label: I want to
+      description: What do they want to do?
+      placeholder: e.g. plan meals for the week from my recipe collection
+    validations:
+      required: true
+
+  - type: input
+    id: so-that
+    attributes:
+      label: So that
+      description: Why does this matter?
+      placeholder: e.g. I can shop once and cook without deciding at the last minute
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: What must be true for this story to be done?
+      placeholder: |
+        - 
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Optional context, links, or constraints.
+    validations:
+      required: false
