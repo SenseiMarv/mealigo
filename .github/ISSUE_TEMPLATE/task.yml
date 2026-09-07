@@ -1,6 +1,7 @@
 name: Task
 description: A general piece of work
 type: Task
+projects: ["SenseiMarv/1"]
 body:
   - type: textarea
     id: description

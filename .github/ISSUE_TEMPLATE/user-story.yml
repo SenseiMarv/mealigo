@@ -1,6 +1,7 @@
 name: User story
 description: A feature or requirement from the end user's perspective
 type: Feature
+projects: ["SenseiMarv/1"]
 body:
   - type: markdown
     attributes:
