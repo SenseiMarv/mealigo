@@ -11,7 +11,7 @@ type: Task
 
 
 ## Acceptance Criteria
-*
+- 
 
 
 ## Notes (optional)

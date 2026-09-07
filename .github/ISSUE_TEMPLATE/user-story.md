@@ -16,7 +16,7 @@ type: Feature
 
 
 ## Acceptance Criteria
-*
+- 
 
 
 ## Notes (optional)
