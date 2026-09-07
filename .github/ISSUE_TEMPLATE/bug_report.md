@@ -5,7 +5,6 @@ title: ''
 labels: ''
 assignees: ''
 type: Bug
-
 ---
 
 **Description**
@@ -29,11 +28,12 @@ _If applicable, add screenshots to help explain your problem._
 
 
 **Environment (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+- Device: [e.g. Samsung Galaxy S26 Ultra]
+- OS: [e.g. Android 17]
+- Browser [e.g. Chrome]
+- Version [e.g. 1.0.0]
 
 
 **Additional context**
 _Add any other context about the problem here._
+

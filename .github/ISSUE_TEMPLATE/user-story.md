@@ -5,19 +5,19 @@ title: ''
 labels: ''
 assignees: ''
 type: Feature
-
 ---
 
 ## Description
 
 | **As a** | user of Mealie to manage my recipes |
 | --- | --- |
-| **I want to** |  |
-| **so that** |  |
+| **I want to** | |
+| **so that** | |
 
 
 ## Acceptance Criteria
-* 
+*
 
 
 ## Notes (optional)
+
