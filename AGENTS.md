@@ -20,7 +20,7 @@ If instructions conflict with no clear path forward or guidance is ambiguous, as
 
 ### Issue tracker
 
-GitHub Issues in SenseiMarv/mealigo. See `docs/agents/issue-tracker.md`.
+GitHub Issues in SenseiMarv/mealiego. See `docs/agents/issue-tracker.md`.
 
 ### Triage labels
 

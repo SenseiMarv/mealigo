@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "mealigo",
-    "slug": "mealigo",
+    "name": "mealiego",
+    "slug": "mealiego",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "mealigo",
+    "scheme": "mealiego",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"
@@ -46,6 +46,6 @@
         "projectId": "39d9c7a6-040e-4996-80cd-34990b76e09a"
       }
     },
-    "owner": "mealigo"
+    "owner": "mealiego"
   }
 }
