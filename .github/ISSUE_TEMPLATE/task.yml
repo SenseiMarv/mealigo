@@ -13,8 +13,10 @@ body:
     id: acceptance-criteria
     attributes:
       label: Acceptance Criteria
-      value: |
-        - 
+      placeholder: |
+        - Search queries the connected Mealie server and lists matching recipes
+        - An empty query shows recent recipes instead of an error
+        - A failed request shows an inline error with a retry action
     validations:
       required: true
 

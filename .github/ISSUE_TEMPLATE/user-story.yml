@@ -12,6 +12,7 @@ body:
     attributes:
       label: As a
       description: Who wants this?
+      placeholder: e.g. user of Mealie to manage my recipes
       value: user of Mealie to manage my recipes
     validations:
       required: true
@@ -40,7 +41,9 @@ body:
       label: Acceptance Criteria
       description: What must be true for this story to be done?
       placeholder: |
-        - 
+        - I can assign a recipe from my collection to a day of the week
+        - The week's plan is still there after I close and reopen the app
+        - I can generate a shopping list from the current week's meals
     validations:
       required: true
 
