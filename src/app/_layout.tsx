@@ -1,3 +1,5 @@
+import "../global.css";
+
 import { useReactNavigationDevTools } from "@dev-plugins/react-navigation";
 import { Stack, useNavigationContainerRef } from "expo-router";
 

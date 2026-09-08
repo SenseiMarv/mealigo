@@ -1,17 +1,31 @@
-import { Text, View, StyleSheet } from "react-native";
+import {
+  Button,
+  HeroUINativeConfig,
+  HeroUINativeProvider,
+} from "heroui-native";
+import { View } from "react-native";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+
+const heroUiConfig: HeroUINativeConfig = {
+  devInfo: {
+    stylingPrinciples: false,
+  },
+};
 
 export default function Index() {
   return (
-    <View style={styles.container}>
-      <Text>Edit src/app/index.tsx to edit this screen.</Text>
-    </View>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <HeroUINativeProvider config={heroUiConfig}>
+        <MyComponent />
+      </HeroUINativeProvider>
+    </GestureHandlerRootView>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
+function MyComponent() {
+  return (
+    <View className="flex-1 items-center justify-center bg-background">
+      <Button onPress={() => console.log("Pressed!")}>Get Started</Button>
+    </View>
+  );
+}

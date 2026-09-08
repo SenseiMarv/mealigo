@@ -7,8 +7,6 @@ describe("<Index />", () => {
     renderRouter({ index: Index }, { initialUrl: "/" });
 
     expect(screen).toHavePathname("/");
-    expect(
-      screen.getByText("Edit src/app/index.tsx to edit this screen."),
-    ).toBeOnTheScreen();
+    expect(screen.getByText("Get Started")).toBeOnTheScreen();
   });
 });

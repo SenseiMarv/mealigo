@@ -1,1 +1,19 @@
-{ "recommendations": ["expo.vscode-expo-tools"] }
+{
+  "recommendations": [
+    // Expo support
+    // see https://marketplace.visualstudio.com/items?itemName=expo.vscode-expo-tools
+    "expo.vscode-expo-tools",
+    // Tailwind CSS support
+    // see https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+    "bradlc.vscode-tailwindcss",
+    // Prettier support
+    // see https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+    "esbenp.prettier-vscode",
+    // ESLint support
+    // see https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+    "dbaeumer.vscode-eslint",
+    // Knip support
+    // see https://marketplace.visualstudio.com/items?itemName=webpro.vscode-knip
+    "webpro.vscode-knip"
+  ]
+}
