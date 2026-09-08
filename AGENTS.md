@@ -1,4 +1,4 @@
-This project is the Expo React Native app for the Mealie recipe manager and meal planner.
+This project is the Expo React Native Android and iOS app for the Mealie recipe manager and meal planner.
 
 Package manager: pnpm.
 
