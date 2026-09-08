@@ -1,12 +1,12 @@
 import "../global.css";
 
 import { useReactNavigationDevTools } from "@dev-plugins/react-navigation";
-import { Stack, useNavigationContainerRef } from "expo-router";
+import { Slot, useNavigationContainerRef } from "expo-router";
 
 export default function RootLayout() {
   const navigationRef = useNavigationContainerRef();
 
   useReactNavigationDevTools(navigationRef);
 
-  return <Stack />;
+  return <Slot />;
 }

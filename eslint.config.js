@@ -8,7 +8,7 @@ module.exports = defineConfig([
   expoConfig,
   eslintPluginPrettierRecommended,
   {
-    ignores: ["dist/*", "src/uniwind-types.d.ts"],
+    ignores: ["dist/*", "src/uniwind-types.d.ts", "src/api/gen/**"],
   },
   {
     extends: [eslintPluginBetterTailwindcss.configs.recommended],

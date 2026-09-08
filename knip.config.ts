@@ -1,9 +1,8 @@
 import { defineConfig } from "knip/config";
 
 export default defineConfig({
-  ignore: [".agents/**"],
+  ignore: [".agents/**", "src/api/gen/**", "src/api/client.ts"],
   ignoreDependencies: [
-    "@dev-plugins/react-query",
     "@expo/ui",
     "expo-device",
     "expo-glass-effect",
@@ -12,6 +11,7 @@ export default defineConfig({
     "expo-web-browser",
     "expo-mcp",
     "expo-updates",
+    "zod",
   ],
   treatConfigHintsAsErrors: true,
 });

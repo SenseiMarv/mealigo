@@ -9,9 +9,10 @@ module.exports = {
     "!**/babel.config.js",
     "!**/expo-env.d.ts",
     "!**/.expo/**",
+    "!**/src/api/gen/**",
   ],
   transformIgnorePatterns: [
-    "node_modules/(?!(.pnpm|(jest-)?react-native|@react-native(-community)?|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@sentry/react-native|native-base|react-native-svg|heroui-native|uniwind|tailwind-variants|@gorhom))",
+    "node_modules/(?!(.pnpm|(jest-)?react-native|@react-native(-community)?|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@sentry/react-native|native-base|react-native-svg|heroui-native|uniwind|tailwind-variants|@gorhom|@dev-plugins))",
     "/node_modules/react-native-reanimated/plugin/",
     "/node_modules/@react-native/babel-preset/",
   ],
