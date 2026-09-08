@@ -1,0 +1,5 @@
+interface:
+  display_name: "To Stitch"
+  short_description: "Turn a spec into Stitch screen prompts"
+policy:
+  allow_implicit_invocation: false

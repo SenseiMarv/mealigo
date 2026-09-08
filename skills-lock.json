@@ -331,6 +331,11 @@
       "skillPath": "skills/engineering/to-spec/SKILL.md",
       "computedHash": "3fa1a0695d4ea242fae9e569e4d22aa1788623197abb33bfadafae7315789bbf"
     },
+    "to-stitch": {
+      "source": "./skills/to-stitch",
+      "sourceType": "local",
+      "computedHash": "78bf6d4375f4c6e7902deb417aef31eaf63591d8ec40a919fc269af47071b90a"
+    },
     "to-tickets": {
       "source": "mattpocock/skills",
       "sourceType": "github",
