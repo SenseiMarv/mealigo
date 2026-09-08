@@ -1,0 +1,3 @@
+# Allow HTTP connections with explicit user acceptance
+
+Mealie Go supports user-hosted Mealie instances where HTTPS may not be configured, including home-network installations. Alongside HTTPS with normal certificate validation, allow HTTP to any user-entered host after explicit acceptance of a warning on the Connect action, without persisting consent or changing the UX of subsequent requests; this trades transport confidentiality for compatibility and a simple connection flow. Session credentials and custom headers remain securely stored on the device, but HTTP can expose passwords, session credentials, custom headers, and other exchanged data in transit.
